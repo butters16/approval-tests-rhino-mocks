@@ -1,150 +1,1360 @@
 ﻿[-10,-2,mock log,-10] => 330
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,-2,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,-2,mock log,10] => -330
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,-2,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,-2,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,-2,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,-1,mock log,-10] => 260
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,-1,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,-1,mock log,10] => -260
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,-1,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,-1,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,-1,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,0,mock log,-10] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,0,mock log,0] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,0,mock log,10] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,0,mock log,something unexpected] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,0,mock log,null] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,0,mock log,some exception] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,1,mock log,-10] => 420
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,1,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,1,mock log,10] => -420
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,1,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,1,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,1,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,2,mock log,-10] => 350
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,2,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,2,mock log,10] => -350
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,2,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,2,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-10,2,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,-2,mock log,-10] => 210
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,-2,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,-2,mock log,10] => -210
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,-2,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,-2,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,-2,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,-1,mock log,-10] => 160
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,-1,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,-1,mock log,10] => -160
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,-1,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,-1,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,-1,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,0,mock log,-10] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,0,mock log,0] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,0,mock log,10] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,0,mock log,something unexpected] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,0,mock log,null] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,0,mock log,some exception] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,1,mock log,-10] => 220
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,1,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,1,mock log,10] => -220
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,1,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,1,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,1,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,2,mock log,-10] => 170
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,2,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,2,mock log,10] => -170
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,2,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,2,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [-5,2,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,-2,mock log,-10] => 80
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,-2,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,-2,mock log,10] => -80
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,-2,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,-2,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,-2,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,-1,mock log,-10] => 60
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,-1,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,-1,mock log,10] => -60
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,-1,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,-1,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,-1,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,0,mock log,-10] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,0,mock log,0] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,0,mock log,10] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,0,mock log,something unexpected] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,0,mock log,null] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,0,mock log,some exception] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,1,mock log,-10] => 20
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,1,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,1,mock log,10] => -20
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,1,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,1,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,1,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,2,mock log,-10] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,2,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,2,mock log,10] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,2,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,2,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [0,2,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,-2,mock log,-10] => -50
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,-2,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,-2,mock log,10] => 50
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,-2,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,-2,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,-2,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,-1,mock log,-10] => -40
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,-1,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,-1,mock log,10] => 40
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,-1,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,-1,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,-1,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,0,mock log,-10] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,0,mock log,0] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,0,mock log,10] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,0,mock log,something unexpected] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,0,mock log,null] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,0,mock log,some exception] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,1,mock log,-10] => -180
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,1,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,1,mock log,10] => 180
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,1,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,1,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,1,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,2,mock log,-10] => -170
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,2,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,2,mock log,10] => 170
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,2,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,2,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [5,2,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,-2,mock log,-10] => -170
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,-2,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,-2,mock log,10] => 170
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,-2,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,-2,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,-2,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,-1,mock log,-10] => -140
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,-1,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,-1,mock log,10] => 140
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,-1,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,-1,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,-1,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,0,mock log,-10] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,0,mock log,0] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,0,mock log,10] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,0,mock log,something unexpected] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,0,mock log,null] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,0,mock log,some exception] => Zero for b? You must be kidding me!
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,1,mock log,-10] => -380
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,1,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,1,mock log,10] => 380
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,1,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,1,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,1,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,2,mock log,-10] => -350
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,2,mock log,0] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,2,mock log,10] => 350
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,2,mock log,something unexpected] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,2,mock log,null] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+
 [10,2,mock log,some exception] => 0
+===== Mock Log =====
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Entered method...");
+Replayed expectation: WebServiceWithToStringOverride.GetMultiplier();
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Error("Web service call failed. System.Exception: some exception
+  at Rhino.Mocks.Expectations.AbstractExpectation.ReturnOrThrow (IInvocation invocation, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayDynamicMockState.DoMethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.ReplayMockState.MethodCall (IInvocation invocation, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.MockRepository.MethodCall (IInvocation invocation, System.Object proxy, System.Reflection.MethodInfo method, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.Invocation.Actions.RegularInvocation.PerformAgainst (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at Rhino.Mocks.Impl.RhinoInterceptor.Intercept (IInvocation invocation) [0x00000] in <filename unknown>:0 
+  at (wrapper synchronized) Rhino.Mocks.Impl.RhinoInterceptor:Intercept (Castle.Core.Interceptor.IInvocation)
+  at Castle.DynamicProxy.AbstractInvocation.Proceed () [0x00000] in <filename unknown>:0 
+  at Castle.Proxies.WebServiceWithToStringOverrideProxya7c6abc3780c4aa4a4df163f38780b45.GetMultiplier () [0x00000] in <filename unknown>:0 
+  at ApprovalTestsPlayground.MyClass.DoWeirdMath (Int32 a, Int32 b, ILog log, IWebService webService) [0x00022] in /home/jkeith/ApprovalTestsPlayground/ApprovalTestsPlayground/MyClass.cs:28 ");
+Dynamic Mock: Unexpected method call ignored: LogWithToStringOverride.Debug("Leaving method...");
+Replayed expectation: LogWithToStringOverride.ToString();
+Replayed expectation: WebServiceWithToStringOverride.ToString();
+

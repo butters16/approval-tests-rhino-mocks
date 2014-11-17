@@ -4,6 +4,8 @@ using ApprovalTestsPlayground;
 using ApprovalTests.Combinations;
 using ApprovalTests.Reporters;
 using Rhino.Mocks;
+using Rhino.Mocks.Impl;
+using System.IO;
 
 namespace ApprovalTestsPlaygroundUnitTest
 {
@@ -61,10 +63,20 @@ namespace ApprovalTestsPlaygroundUnitTest
 			};
 
 			// Act and assert
-			CombinationApprovals.VerifyAllCombinations (sut.DoWeirdMath, firsts, seconds, logs, webServices);
+			StringWriter stringWriter;
+			Reset (out stringWriter);
+			Func<object, string> formatter = (result) => result + "\r\n===== Mock Log =====\r\n" + stringWriter.ToString() + Reset(out stringWriter);
+			CombinationApprovals.VerifyAllCombinations (sut.DoWeirdMath, formatter, firsts, seconds, logs, webServices);
 		}
 
-		private static LogWithToStringOverride CreateMockLog (string toString)
+		private static string Reset(out StringWriter stringWriter)
+		{
+			stringWriter = new StringWriter ();
+			RhinoMocks.Logger = new TextWriterExpectationLogger (stringWriter);
+			return string.Empty;
+		}
+
+		private LogWithToStringOverride CreateMockLog (string toString)
 		{
 			var mockLog = MockRepository.GenerateMock<LogWithToStringOverride> ();
 			StubToString (mockLog, toString);
@@ -72,7 +84,7 @@ namespace ApprovalTestsPlaygroundUnitTest
 			return mockLog;
 		}
 
-		private static WebServiceWithToStringOverride CreateMockWebServiceReturn (string result)
+		private WebServiceWithToStringOverride CreateMockWebServiceReturn (string result)
 		{
 			var mockWebService = MockRepository.GenerateMock<WebServiceWithToStringOverride> ();
 			StubToString (mockWebService, result);
@@ -80,7 +92,7 @@ namespace ApprovalTestsPlaygroundUnitTest
 			return mockWebService;
 		}
 
-		private static WebServiceWithToStringOverride CreateMockWebServiceException (string message)
+		private WebServiceWithToStringOverride CreateMockWebServiceException (string message)
 		{
 			var mockWebService = MockRepository.GenerateMock<WebServiceWithToStringOverride> ();
 			StubToString (mockWebService, message);
